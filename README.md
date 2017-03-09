@@ -35,7 +35,7 @@ npm run build
 
 It's a project based on [njaulj/my_workbook](https://github.com/njaulj/my_workbook) ,but the njaulj's project doesn't uses the vue 2.x, and I'm learning that for the time being.So that's why this project built.
 
-Of course , there were some question during the coding procedure.
+Of course , there were some questions during the coding procedure.
 
 Such as 
 ```
@@ -60,13 +60,15 @@ const actions = {
 ```
 I used to pass three parameters to the function "MARKDOWN_SUCCESS" ,however,the console came out 
 ```
+
 bla undefined
 blabla undefined
 blablabla undefined
+...
 
 ```
 
-Obviously the third patameter wasn't passed the value to function "MARKDOWN_SUCCESS" .Therefore, I refered to the api document.
+Obviously the third parameter wasn't passed the value to function "MARKDOWN_SUCCESS" .Therefore, I referred to the api document.
 ```
 Vuex.Store Instance Methods
 
@@ -110,7 +112,8 @@ hotUpdate(newOptions: Object)
 
 Hot swap new actions and mutations. Details
 ```
-And I'm clear about it.I use the array to store the parameter. Object is also a good choice~
+And I was clear about it.I used the array to store the parameter. 
+Object is also a good choice~
 
 
 #### If u like this project, welcome to click the 'star' or the 'folk'~~~
